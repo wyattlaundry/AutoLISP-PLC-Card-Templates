@@ -60,3 +60,15 @@ To launch the interface and use the GUI:
   - AutoCAD first writes/reads from the IO_List excel file
   - AutoCAD then renders all objects that were selected in the GUI
   - **May take anywhere from 3-15 seconds**
+  
+  
+## Other
+
+### Adding New Templates
+
+### Adding New Symbols
+
+### Render Time Improvment
+
+### File Path Modifications
+

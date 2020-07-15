@@ -1,8 +1,8 @@
 # AutoLISP-PLC-Card-Templates
 This is a fully automated card drawing program that can be used to generate drawings based on IO data for PLC projects
 
-##Set Up
-Input IO Data
+## Set Up
+> Input IO Data
 
 In order for the templates to work properly, data is required in the specified IO List excel file. This data is to be formatted as plain text. 
 

@@ -47,7 +47,8 @@ To launch the interface and use the GUI:
     - Title Block
       - Title block information for drawing
       
-![Recordit GIF](http://g.recordit.co/EV9Tei3mdG.gif)
+    ###GUI Demo
+    ![Recordit GIF](http://g.recordit.co/EV9Tei3mdG.gif)
 
 - Allow time for loading and rendering
   - AutoCAD first writes/reads from the IO_List excel file

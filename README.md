@@ -27,6 +27,8 @@ In order for the templates to work properly, data is required in the specified I
       - Manage > Applications > Load Application > Startup Suite > Contents... > Select MAIN.lsp
 
 > When prompted, select 'Always Load', else the template will not have the code to run properly.
+  ### Loading Application Demo
+  ![Recordit GIF](http://g.recordit.co/DmTh3sYKDx.gif)
 
 ## Interface
 

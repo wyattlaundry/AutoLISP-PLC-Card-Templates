@@ -46,6 +46,9 @@ To launch the interface and use the GUI:
       - Power routing for the drawing
     - Title Block
       - Title block information for drawing
+      
+![Recordit GIF](http://http://g.recordit.co/EV9Tei3mdG.gif)
+
 - Allow time for loading and rendering
   - AutoCAD first writes/reads from the IO_List excel file
   - AutoCAD then renders all objects that were selected in the GUI

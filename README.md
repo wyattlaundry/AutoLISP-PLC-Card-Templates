@@ -2,20 +2,19 @@
 This is a fully automated card drawing program that can be used to generate drawings based on IO data for PLC projects
 
 ## Set Up
-> Input IO Data
-
+### Input IO Data
 In order for the templates to work properly, data is required in the specified IO List excel file. This data is to be formatted as plain text. 
 
-Open Excel file named "IO_List"
-Input IO data for each "type" of data (each has separate sheet)
-IO
-General IO Data for the card
-Power
-Data for basic power wiring for the card
-Title Block
-Title block data to for project information
-Save & Close 
-Excel spreadsheet must be closed when running the template code
+- Open Excel file named "IO_List"
+- Input IO data for each "type" of data (each has separate sheet)
+  - IO
+    - General IO Data for the card
+  - Power
+    - Data for basic power wiring for the card
+  - Title Block
+    - Title block data to for project information
+- Save & Close 
+  - Excel spreadsheet must be closed when running the template code
 
 Adding Columns/Rows/Fields will require changes to the template code
 

@@ -1,0 +1,97 @@
+InitDialogue
+ 
+: dialog
+ 
+{
+label = "Initialization Dialogue Box";
+ 
+	: row{
+
+	: boxed_column {			//define boxed column
+        label = "&Pick Card";			//give it a label
+
+        	: row {
+		: text_part {				
+     			label = "Type";		
+     		}
+        
+     		: popup_list {
+     			width = 14;
+        		key = "card_sel";			
+        		value = "5" ;				
+        	}
+        	}//row
+
+        	: row {
+        	: text_part {				
+     			label = "Rack";		
+     		}
+        
+     		: popup_list {
+     			width = 14;
+        		key = "rack_sel";			//give it a name
+        		value = "5" ;				//initial value
+        	}
+        	}
+
+        	: row {
+        	: text_part {				
+     			label = "Slot";		
+     		}
+        
+     		: popup_list {
+     			width = 14;
+        		key = "slot_sel";			//give it a name
+        		value = "5" ;				//initial value
+        	}
+        	}
+ 
+        } //box
+
+        :boxed_column {				//define boxed row
+	label = "&Render Options";
+        	
+        :toggle {				//define toggle
+        key = "dwg";				//give it a name
+        label = "Load Drawing";			//give it a label
+        }					//end toggle
+ 
+        :toggle {				//define toggle
+        key = "power";				//give it a name
+        label = "Load Power";			//give it a label
+        }
+
+        :toggle {				//define toggle
+        key = "titleblock";				//give it a name
+        label = "Load Title Block";			//give it a label
+        }
+        
+        }//box
+
+        } //end row
+
+	ok_cancel;
+
+	: row {					
+ 
+     	: image {					
+     	key = "im" ;				
+     	height = 1.0 ;				
+     	width = 1.0 ;				
+     	}						
+ 
+     	: paragraph {				
+ 
+     	: text_part {				
+     	label = "Designed and Created";		
+     	}						
+ 
+     	: text_part {				
+     	label = "by Luke Lowery";			
+     	}						
+ 
+     	}						
+ 
+     }	
+ 
+}

@@ -17,7 +17,7 @@ In order for the templates to work properly, data is required in the specified I
 
 > Adding Columns/Rows/Fields will require changes to the template code
 
-## Loading Template/Code
+## Loading Application/Code
 - Open desired card CAD drawing (.dwg)
 - Load the MAIN.lsp template code
   - There are two options when loading the code for the CAD templates. You can manually load the code into the drawing each time, or enable auto-loading, which loads the MAIN code every time you open a new drawing.

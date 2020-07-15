@@ -47,7 +47,7 @@ To launch the interface and use the GUI:
     - Title Block
       - Title block information for drawing
       
-    ###GUI Demo
+    ### GUI Demo
     ![Recordit GIF](http://g.recordit.co/EV9Tei3mdG.gif)
 
 - Allow time for loading and rendering

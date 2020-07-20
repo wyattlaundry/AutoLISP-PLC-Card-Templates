@@ -75,6 +75,10 @@ To launch the interface and use the GUI:
 - Add new symbol name to Excel (without .dwg extension)
 
 ### Render Time Improvment
+If the render time is noticably slow, there are a few things that may help.
+- Work locally by moving all files to your computer
+  - Likely, the slow render time is consumed by the time it takes for the program to read/write to Excel over the network.
+- 
 
 ### File Path Modifications
 

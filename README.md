@@ -66,7 +66,13 @@ To launch the interface and use the GUI:
 
 ### Adding New Templates
 
-### Adding New Symbols
+### Adding New Symbols (Device Symbols)
+- Add new symbol as a drawing file to the 'Symbols' Folder
+- Open 'Functions.lsp' in the Cards folder
+  - Scroll down to the DetermineDevicePath function
+  - Duplicate one of the lines found in the function
+  - Change drawing name to match the one you put in the Symbols folder
+- Add new symbol name to Excel (without .dwg extension)
 
 ### Render Time Improvment
 

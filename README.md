@@ -78,7 +78,6 @@ To launch the interface and use the GUI:
 If the render time is noticably slow, there are a few things that may help.
 - Work locally by moving all files to your computer
   - Likely, the slow render time is consumed by the time it takes for the program to read/write to Excel over the network.
-- 
 
 ### File Path Modifications
 The locations of all symbols, programs, and DCL files are required to be in their original location in order for the main program to access them. If you wish to change the location of any file with respect to the root folder you must:

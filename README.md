@@ -81,4 +81,11 @@ If the render time is noticably slow, there are a few things that may help.
 - 
 
 ### File Path Modifications
+The locations of all symbols, programs, and DCL files are required to be in their original location in order for the main program to access them. If you wish to change the location of any file with respect to the root folder you must:
+- Open MAIN.lsp
+- Change the file path variables
+  - IO List (Excel) file path
+  - Programs (LISP/DCL) file path
+  - Symbols (DWG) file path
+- File paths are relative to the location of the drawing you have opened.
 
